@@ -36,7 +36,7 @@ Many organisations accumulate cloud risk without noticing: over-permissioned ide
 | Non-root IAM user with MFA, no access keys, read-only permissions | Tested: listing S3 buckets was allowed, creating a bucket was denied |
 | Billing budget alerts | Configured, recipient verified. Alert delivery is not tested |
 | Repository protections (.gitignore) | Tested for the `*.pem` pattern only |
-| Architecture and threat model | In Progress |
+| Done (threat model and architecture diagram published). Controls in the diagram marked planned are not built yet| In Progress |
 | Terraform lab environment | Planned |
 | Prowler and Checkov assessments | Planned |
 | Remediation, validation and re-assessment | Planned |
@@ -53,6 +53,15 @@ These were observed in the account before any changes:
 ## Decisions
 
 - An IAM Identity Center setup was reviewed and not enabled in this account, because the setup flow would have created an AWS Organization with this account as its management account. See the decision record (See the [decision record](docs/decisions/001-everyday-identity.md).).
+
+
+## Documentation
+
+- [Business case](docs/business-case.md)
+- [Threat model](docs/threat-model.md)
+- [Architecture](docs/architecture.md)
+- [Decision records](docs/decisions/)
+- [Evidence index](evidence/README.md)
 
 ## Limitations so far
 
