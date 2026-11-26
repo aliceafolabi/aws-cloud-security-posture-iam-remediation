@@ -25,3 +25,9 @@ Screenshots are redacted before being added: account IDs, email addresses, crede
 | `screenshots/phase3/alicedaily-allowed-s3-list.png` | The non-root user listing S3 buckets without an error. The list was empty. | That the user can read objects, since no buckets exist. |
 | `screenshots/phase3/alicedaily-denied-create-bucket.png` | The same user failing to create a bucket, with a message that the s3:CreateBucket permission is required. | The reason for the denial. No bucket existed afterwards (observed, not screenshotted). |
 | `screenshots/phase3/identity-center-not-enabled-after.png` | The IAM Identity Center page still showing the Enable button, with no instance created. | The setup screen that led to the decision. That is described in the decision record. |
+
+## Phase 5: Risk assessment (captured 26 Nov 2026)
+
+| File | What it shows | What it does not show |
+|---|---|---|
+| `screenshots/phase5/cloudtrail-trails-list.png` | The CloudTrail Trails page in N. Virginia listing no trail. | Trails in other regions, or an organisation trail. Only this region was viewed. |

@@ -36,13 +36,13 @@ Many organisations accumulate cloud risk without noticing: over-permissioned ide
 | Non-root IAM user with MFA, no access keys, read-only permissions | Tested: listing S3 buckets was allowed, creating a bucket was denied |
 | Billing budget alerts | Configured, recipient verified. Alert delivery is not tested |
 | Repository protections (.gitignore) | Tested for the `*.pem` pattern only |
-| Architecture and threat model | Planned |
+| Architecture and threat model | In Progress |
 | Terraform lab environment | Planned |
 | Prowler and Checkov assessments | Planned |
 | Remediation, validation and re-assessment | Planned |
 | Final report | Planned |
 
-## Starting-state findings
+## - No CloudTrail trail was listed in the console on 26 Nov 2026 (region viewed: N. Virginia). Event history was available, which covers 90 days of management events only.
 
 These were observed in the account before any changes:
 
