@@ -52,7 +52,7 @@ These were observed in the account before any changes:
 
 ## Decisions
 
-- An IAM Identity Center setup was reviewed and not enabled in this account, because the setup flow would have created an AWS Organization with this account as its management account. See the decision record (to be added to the docs folder).
+- An IAM Identity Center setup was reviewed and not enabled in this account, because the setup flow would have created an AWS Organization with this account as its management account. See the decision record (See the [decision record](docs/decisions/001-everyday-identity.md).).
 
 ## Limitations so far
 
