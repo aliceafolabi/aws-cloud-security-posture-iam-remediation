@@ -53,8 +53,7 @@ flowchart LR
 
 ## Decisions
 - [ADR-001: everyday identity](decisions/001-everyday-identity.md)
-- ADR-002, the build role and its policy, will be written when it is designed.
-
+- - [ADR-002: build role for Terraform](decisions/002-build-role.md) (proposed, not yet tested)
 ## Limits
 - This is a single-account lab with no real customer data.
 - Nothing in the lab section exists yet. It will be added to this page as it is built and tested.
